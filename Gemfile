@@ -3,7 +3,7 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem 'activeresource', '>= 2.3.8'
+gem 'activeresource', '>= 5.1.0'
 gem 'configatron', '>= 2.6.4'
 
 # Add dependencies to develop your gem here.
@@ -11,7 +11,7 @@ gem 'configatron', '>= 2.6.4'
 group :development do
   gem "rspec", "~> 2.3.0"
   gem "bundler", "~> 1.0.0"
-  gem "jeweler", "~> 1.5.2"
+  gem "jeweler", "~> 1.6.0"
   gem "rcov", ">= 0"
 end
 
